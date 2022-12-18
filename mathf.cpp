@@ -22,5 +22,9 @@ int main()
  cout<<sqrtf(100)<<endl;
  cout<<cbrtf(1000)<<endl;
  cout<<hypotf(4,3)<<endl;
+ cout<<roundf(3.652)<<endl;
+ cout<<roundf(-2.5)<<endl;
+ cout<<roundf(2.4)<<endl;
+ cout<<roundf(-2.4)<<endl;
  return 0;  
 }
