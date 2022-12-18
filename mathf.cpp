@@ -4,8 +4,11 @@ using namespace std;
 int main()
 {  
  double a=-7.18634;
+ float b=7.18634;
  cout<<floorf(a)<<endl;
+ cout<<floorf(b)<<endl;
  cout<<ceilf(a)<<endl;
+ cout<<ceilf(b)<<endl;
  cout<<abs(a)<<endl;
  cout<<cosf(60)<<endl;
  cout<<sinf(30)<<endl;
