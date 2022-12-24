@@ -1,6 +1,6 @@
 #include<iostream>
-#include<iomanip>
-#include<bitset>
+#include<iomanip>//left,right for justification and setw(integer) is defined in this
+#include<bitset>//bistset<no.of bits> is defined in this library
 using namespace std;
 int main()
 { 
