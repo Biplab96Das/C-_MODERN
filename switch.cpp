@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 const int Pen {10};
 const int Marker {20};
@@ -40,6 +41,17 @@ int main()
      }
       break;
      }
+  const int name =40;
+  switch (name)
+  { case name:{
+      cout<<"Hello John!"<<endl;
+  }
+  // break;
+  default:{
+      cout<<"Who the hell are you?"<<endl;
+    }
+    break;
+  }
   cout<<"Moving on......."<<endl;                
 return 0;          
 }
