@@ -20,22 +20,25 @@ int main()
     break;  
   }
   int condition = 1;
-  switch(condition)//Any variable declared inside switch is valid in entire switch
-  { int x{5};//compile time error
+  switch(int x{5}, y{4}, z{6};condition)//Any variable declared inside switch is valid in entire switch
+  { //int x{5};//compile time error     //But,if the percular case isn't executed or declared before all cases then compiler give error
     case 0 :
-      int y{4};//compile time error
+      //int y{4};//compile time error
       x=4;
       x++;
+      cout<<"x="<<x<<",y="<<y<<",z="<<z<<endl;
     break;
     case 1:
-      int z{6};//compile time error
+      //int z{6};//compile time error
       y=5;
       y+=5;
+      cout<<"x="<<x<<",y="<<y<<",z="<<z<<endl;
     break;
     default :
        int u{8};//it's OK
        z=4;
        z++;
+       cout<<"x="<<x<<",y="<<y<<",z="<<z<<endl;
     break;//Optional but good practice       
   }
 
