@@ -23,7 +23,8 @@ int main()
     double num9 {8.5};
     double num10 {};//Initialized to 0
     double num11 {};
-    cout<<num9<<"/"<<num10<<"="<<num9/num10<<endl;//inf
+    cout<<num9<<"/"<<num10<<"="<<-1*num9/num10<<endl;//-inf
+    cout<<num9<<"/"<<num10<<"="<<-1*num9/num10<<endl;//inf
     cout<<num10<<"/"<<num11<<"="<<num10/num11<<endl;//nan
 	return 0;
 }
