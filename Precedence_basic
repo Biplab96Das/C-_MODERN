@@ -1,0 +1,16 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+  int a{6},b{3},c{8},d{9},e{3},f{2},g{5};
+  int result=a+b*c-d/e-f+g;
+  cout<<result<<endl;
+  int result1=a+(b*c)-(d/e)-f+g;
+  cout<<result1<<endl;
+  int res=a/b*c+d-e+f;
+  cout<<res<<endl;
+  int res1=((a/b)*c)+d-e+f;
+  cout<<res1<<endl;
+  return 0;
+}
