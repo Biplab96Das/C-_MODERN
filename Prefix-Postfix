@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int val{5};
+ cout<<++val<<endl;//Preincrement,val+=1
+ cout<<val--<<","<<val++ - --val<<","<<val-- + ++val<<","<<val<<endl;//Postdecrement val is used after the operation.
+  return 0;
+}
