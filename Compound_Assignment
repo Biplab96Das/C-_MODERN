@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int val;
+ cin>>val;
+ cout<<"+ assignment: "<<(val+=5)<<endl;
+ cout<<"- assignment: "<<(val-=5)<<endl;
+ cout<<"* assignment: "<<(val*=5)<<endl;
+ cout<<"/ assignment: "<<(val/=5)<<endl;
+ cout<<"% assignment: "<<(val%=7)<<endl;
+ cout<<"++ assignment: "<<((++val) +=5)<<endl;
+ cout<<"-- assignment: "<< ((--val) +=5) <<endl;
+ return 0;
+}
