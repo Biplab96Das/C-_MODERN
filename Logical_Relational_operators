@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int a,b,c,d,e,f,g;
+ cin>>d>>e>>f>>a>>b>>c>>g;
+ cout<<boolalpha<<endl;
+ cout<<"((d>f)&&(d>e))? "<<((d>f)&&(d>e))<<endl;
+ cout<<"((d==e)||(e<=f))? "<<((d==e)||(e<=f))<<endl;
+ cout<<"((d<e)||(d>f))? "<<((d<e)||(d>f))<<endl;
+ cout<<"((f>e)||(d<f))? "<<((f>e)||(d<f))<<endl;
+ cout<<"((d>f)&&(f<=d))? "<<((d>f)&&(f<=d))<<endl;
+ cout<<"((d>e)&&(d<=f))? "<<((d>e)&&(d<=f))<<endl;
+ cout<<"((!a)||(d==e))? "<<((!a)||(d==e))<<endl;
+ cout<<"((!a)&&(d==e))? "<<((!a)&&(d==e))<<endl;
+ cout<<"(b && c || g)? "<<((b && c) || g )<<endl;
+ cout<<"(b && c && g)? "<<(!(b && c) && g)<<endl;
+ cout<<"(b || c || g)? "<<(!(b || c) || g)<<endl;
+ cout<<"(b || c && g)? "<<(!(b || c) && g);
+ return 0;
+}
